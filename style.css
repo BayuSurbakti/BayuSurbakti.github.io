@@ -1,0 +1,195 @@
+body{
+    overflow-x: hidden;
+    background-color: #f2efdc;
+  }
+  li a{
+    color: white !important;
+  }
+  .searchbar input:focus, .searchbar button:focus{
+    border-color:none;
+      box-shadow:none;
+     }
+  a{
+    text-decoration: none !important;
+      color: white !important;
+  }   
+  .searchbar button:hover{
+      color:  #fffbe7;
+      opacity: 0.5;
+
+     }
+  .navbar-brand{
+    width: 30vh !important;
+  }
+  .navigasi{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    position: sticky !important;
+    top: 0;
+  }
+  .display-6{
+    font-family: 'Bebas Neue', cursive;
+  }
+  .display-2{
+    font-family: 'Bangers', cursive;
+  }
+  .lead{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+  }
+  .new{
+    height: 10rem;
+  }
+  .carousel-contain{
+    width: 100%;
+  }
+  
+  .carousel-caption{
+    background-image: linear-gradient(transparent 1%, black );
+    left:auto;
+    right: auto;
+    bottom:0;
+}  
+  .ket{
+    width: 35vh !important;
+    height: 20vh !important;
+  }
+
+  .carousel-item{
+    font-family: 'Bangers', cursive;
+    font-size: 1rem;
+  }
+  .carousel-item h5{
+    font-family: 'Bangers', cursive;
+    font-size: 2em !important;
+  }
+  .text1{
+    color : white !important;
+    transition : all 1s;
+  }
+
+  .bgbawah{
+      background-color: #f2efdc;
+  }
+ .bg{
+    background-color:transparant;
+  }
+
+ .scrolled{
+    transition : all 0.5s;
+  }
+
+  .cwmbg{
+      top: 0;
+      background-image: url('cwm.png');
+      background-size: cover;
+  }
+  .jarak{
+    padding-top: 5rem; 
+    height: 20vh;
+}  
+    .hilangkan{
+        display: none !important;
+    }
+
+    .borderer{
+      border: 5px solid #fffbe7;
+    }
+
+
+    .makanan-img{
+    position: relative;
+    overflow: hidden;
+    height: 37.5vh !important;
+    background-size: cover;
+    }
+
+    .navbar2{
+      margin-top: -100hv !important;
+    
+    }
+    
+    .btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+    }
+
+    .btns .tulisan{
+    border: none;
+    background-color: #f2efdc;
+    opacity: 0.9;
+    color: black;
+    font-size: 3vw;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    }
+    .btns .tulisan:hover{
+    color: #fcb941 !important;
+    }
+
+    .makanan-img:hover .btns{
+    bottom: 0;
+    }
+    /*.navbar2 button:hover{
+        color:white;
+    }*/
+
+    .nav-item a:hover{
+        color:#fffbe7 !important;
+    }
+
+    a{
+      font-family: 700;
+    }
+/*  footer*/
+  .footer{
+    color: white;
+  }
+
+  @media (max-width: 767.99px) { 
+
+    .text4{
+        justify-content: center;
+        text-align: center;
+    }
+    .gambar{
+    height: 40vh;
+    width: 14rem;
+  } 
+    .spasi-atas{
+      margin : 0 ;
+    }
+      .cwmbg{
+          height: 60vh !important;
+          width: 14rem;
+      }
+
+        .makanan-img{
+        position: relative;
+        overflow: hidden;
+        height: 40vw !important;
+        background-size: cover;
+
+    }
+}
+
+/*Pembuka */
+.cwmbg1{
+      top: 0;
+      background-image: url('cwm.png');
+      background-size: cover;
+  }
+
+.atas{
+  margin-top: 10vh;
+}  
+
+.sambutan{
+   font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+}
